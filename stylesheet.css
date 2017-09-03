@@ -1,0 +1,31 @@
+[data-role="drag-drop-target"] {
+    float: left;
+    width: 500px;
+    height: 376px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #ddd;
+    border-radius: 4px;
+}
+
+.over {
+    background-color: #ffc
+}
+
+[draggable="true"] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
+
+.drag {
+    opacity: 0.25;
+}
+
+.img-responsive {
+    max-width: 100%;
+    max-height: 100%;
+}
